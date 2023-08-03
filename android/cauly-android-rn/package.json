@@ -51,7 +51,7 @@
   },
   "homepage": "https://github.com/junhojohnfsn/react-native-cauly-android-rn#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.fsnsys.com/repository/npm-release/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
