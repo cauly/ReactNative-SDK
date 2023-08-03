@@ -34,7 +34,7 @@ const App: React.FC = () => {
   }, 2000);
 
   const onPressInterstitialRequestButton = useCallback(() => {
-    const caulyInterstitialAd = new CaulyInterstitialAd('tIw5rIqr');
+    const caulyInterstitialAd = new CaulyInterstitialAd('YOUR_CAULY_CODE');
     caulyInterstitialAd.addEventListener('onDidReceiveInterstitialAd', () => {
       console.warn('[App.js] js did register interstitial successfully! ');
       caulyInterstitialAd.show();
@@ -59,7 +59,7 @@ const App: React.FC = () => {
   const caulyBanner = useMemo(() => {
     return (
       <CaulyBannerAd
-        appCode="OjELN7RY"
+        appCode="YOUR_CAULY_CODE"
         animationType={AnimationType.TOP_SLIDE}
         reload={isReload}
         // adSizeType={BannerAdSize.SQUARE}

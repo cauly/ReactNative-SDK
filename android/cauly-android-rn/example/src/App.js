@@ -27,7 +27,7 @@ const App = () => {
         }
     }, 2000);
     const onPressInterstitialRequestButton = useCallback(() => {
-        const caulyInterstitialAd = new CaulyInterstitialAd('tIw5rIqr');
+        const caulyInterstitialAd = new CaulyInterstitialAd('YOUR_CAULY_CODE');
         caulyInterstitialAd.addEventListener('onDidReceiveInterstitialAd', () => {
             console.warn('[App.js] js did register interstitial successfully! ');
             caulyInterstitialAd.show();
@@ -43,7 +43,7 @@ const App = () => {
         });
     }, []);
     const caulyBanner = useMemo(() => {
-        return (React.createElement(CaulyBannerAd, { appCode: "OjELN7RY", animationType: AnimationType.TOP_SLIDE, reload: isReload, 
+        return (React.createElement(CaulyBannerAd, { appCode: "YOUR_CAULY_CODE", animationType: AnimationType.TOP_SLIDE, reload: isReload, 
             // adSizeType={BannerAdSize.SQUARE}
             isSetBannerWidthAndHeightByUser: true, 
             // bannerWidth={320}
