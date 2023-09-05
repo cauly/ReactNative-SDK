@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
 // "Interstitial request" 버튼 이벤트 처리
 function onPressInterstitialRequestButton(){
   CaulyAdSettingModule.setAppId('CAULY');
-  CaulyAdSettingModule.setAppCode('YOUR_APP_CODE');
+  CaulyAdSettingModule.setAppCode('0d2VuoZV');
   CaulyAdSettingModule.setCloseOnLanding(true);
   // 파라미터에 현재 react native 뷰객체를 넘겨줘야 한다. 넘기는 방법은 https://reactnative.dev/docs/0.68/communication-ios 참고해봐야 할듯 
   // https://s-pace.github.io/react-native/docs/integration-with-existing-apps.html

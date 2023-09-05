@@ -16,11 +16,11 @@
     * [ReactNative App 프로젝트루트경로/ios/caulyIosRN/RNCaulyAdViewManager.h 추가](#자세한-내용은-‘caulyIosRN’-참조)
     * [ReactNative App 프로젝트루트경로/ios/caulyIosRN/RNCaulyAdViewManager.m 추가](#자세한-내용은-‘caulyIosRN’-참조)        
  
-3. [배너 및 전면 광고 추가하기(js 진영 연결 코드)](#2-배너-및-전면-광고-추가하기(js-진영-연결-코드)) 
+3. [배너 및 전면 광고 추가하기(js 진영 연결 코드)](#3-배너-및-전면-광고-추가하기(js-진영-연결-코드)) 
     * [ReactNative App 프로젝트루트경로/CaulyAdView.js 추가](#자세한-내용은-‘caulyIosRN’-참조)
     * [ReactNative App 프로젝트루트경로/App.tsx 추가](#자세한-내용은-‘caulyIosRN’-참조)
 
-4. [실행하기](#3-실행하기)
+4. [실행하기](#4-실행하기)
     * [Flutter Plugin 프로젝트 실행을 위한 명령어 실행](#Flutter-Plugin-프로젝트-실행을-위한-명령어-실행)
 
 - - - 
