@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-cauly-android-rn": ["./src/index"]
+      "@doohub/cauly-android-rn": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

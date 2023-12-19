@@ -1,7 +1,7 @@
 {
-  "name": "react-native-cauly-android-rn",
-  "version": "0.1.0",
-  "description": "react-native-cauly-android-rn",
+  "name": "cauly-android-rn",
+  "version": "3.5.26",
+  "description": "cauly-android-rn",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -43,13 +43,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/junhojohnfsn/react-native-cauly-android-rn",
+  "repository": "https://github.com/junhojohnfsn/cauly-android-rn",
   "author": "junhojohn <junhojohn@fsn.co.kr> (https://github.com/junhojohnfsn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/junhojohnfsn/react-native-cauly-android-rn/issues"
+    "url": "https://github.com/junhojohnfsn/cauly-android-rn/issues"
   },
-  "homepage": "https://github.com/junhojohnfsn/react-native-cauly-android-rn#readme",
+  "homepage": "https://github.com/junhojohnfsn/cauly-android-rn#readme",
   "publishConfig": {
     "registry": "https://npm.fsnsys.com/repository/npm-release/"
   },
